@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>contour</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
+    <style>
+      /* body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      } */
+      canvas {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <canvas id="canvas1"></canvas>
+      <canvas id="canvas2"></canvas>
+      <canvas id="canvas3"></canvas>
+    </div>
+    <div>
+      <img id="img1" style="background-color: #eeeeee" />
+      <span id="span1"></span>
+    </div>
+    <div>
+      <img id="img2" style="background-color: #eeeeee" />
+      <span id="span2"></span>
+    </div>
+    <div>
+      <img id="img3" style="background-color: #eeeeee" />
+      <span id="span3"></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="js/tileUtil.js"></script>
+    <script src="js/conrec.js"></script>
+    <script src="js/contourTile.js"></script>
+    <script src="js/fastContourTile.js"></script>
+    <script src="js/tileContourMap.js"></script>
+    <script src="js/bulkContourMap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
